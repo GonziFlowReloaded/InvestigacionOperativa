@@ -5,7 +5,8 @@ x = cp.Variable()
 y = cp.Variable()
 
 # Función objetivo: Minimizar 2x + 3y
-objective = cp.Maximize(2*x + 4*y)
+hola = 2*x + 4*y
+objective = cp.Maximize(hola)
 
 # Restricciones: 
 constraints = [4*x + 6*y <= 120,
